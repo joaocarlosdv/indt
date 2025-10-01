@@ -52,3 +52,11 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+/ContratacaoService/.vs/ContratacaoService/DesignTimeBuild/.dtbcache.v2
+*.vsidx
+*.testlog
+*.manifest
+*.v2
+/ContratacaoService/.vs/ContratacaoService/v17
+/ContratacaoService/.vs
+/PropostaService/.vs
