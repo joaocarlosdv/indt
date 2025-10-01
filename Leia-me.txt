@@ -1,0 +1,20 @@
+Docker
+
+	Proposta
+		1. Para subir o docker, devemos acessar a pasta PropostaService pelo prompt de comando;
+		2. Rodar o seguinte comando para criar a imagem no docker: docker build -f PropostaService.API/Dockerfile -t proposta-service .
+		3. Rodar o comando para subir a aplicação: docker run -d -p 5000:8080 --name proposta-api proposta-service
+		4. Acessar a aplicação no endereço http://localhost:5000/swagger/index.html
+		
+	Contratacao
+		1. Para subir o docker, devemos acessar a pasta ContratacaoService pelo prompt de comando; 
+		2. Rodar o seguinte comando para criar a imagem no docker: docker build -f ContratacaoService.API/Dockerfile -t contratacao-service .
+		3. Rodar o comando para subir a aplicação: docker run -d -p 5001:8080 --name contratacao-api contratacao-service
+		4. Acessar a aplicação no endereço http://localhost:5001/swagger/index.html
+		
+Banco de dados
+	
+	MySql
+		Criar uma base de dados com o nome "indt"
+		Rodar os scripts 
+		
